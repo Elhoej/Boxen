@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1592C1D513D5CFD140146BB0 /* Pods_BoxenAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AA1C369400A2C2A5DC8D02 /* Pods_BoxenAdmin.framework */; };
+		261779D0274543F400314E8E /* MustacheRxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 261779CF274543F400314E8E /* MustacheRxSwift */; };
+		261779D22745442600314E8E /* AutoLayoutDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D12745442600314E8E /* AutoLayoutDSL.swift */; };
+		261779D62745447C00314E8E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D32745447B00314E8E /* Extensions.swift */; };
+		261779D72745447C00314E8E /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D42745447B00314E8E /* FloatingTextField.swift */; };
+		261779D82745447C00314E8E /* PillTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D52745447B00314E8E /* PillTextField.swift */; };
+		261779DA2745448700314E8E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D92745448700314E8E /* SignInViewController.swift */; };
+		261779DE27455F8200314E8E /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779DD27455F8200314E8E /* PatientListViewController.swift */; };
+		261779E027455FA900314E8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779DF27455FA900314E8E /* ProfileViewController.swift */; };
+		261779E32745633F00314E8E /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779E22745633F00314E8E /* PatientCell.swift */; };
+		261779E52745654D00314E8E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779E42745654D00314E8E /* Models.swift */; };
+		2638A5F728A7FE8300EF6183 /* HomeDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638A5F628A7FE8300EF6183 /* HomeDayCell.swift */; };
+		2638A5F928A9154700EF6183 /* HomePillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638A5F828A9154700EF6183 /* HomePillCell.swift */; };
+		2644CFAE2889B997004330EB /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644CFAD2889B997004330EB /* MenuItemCell.swift */; };
+		2681CB19284BA4010052D7AB /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 2681CB18284BA4010052D7AB /* FloatingPanel */; };
+		2681CB1B284BA4F20052D7AB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2681CB1A284BA4F20052D7AB /* SettingsViewController.swift */; };
+		2689DBC5272B2667005D7ABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689DBC4272B2667005D7ABF /* AppDelegate.swift */; };
+		2689DBC9272B2667005D7ABF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689DBC8272B2667005D7ABF /* HomeViewController.swift */; };
+		2689DBCE272B2669005D7ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2689DBCD272B2669005D7ABF /* Assets.xcassets */; };
+		2689DBD1272B2669005D7ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2689DBCF272B2669005D7ABF /* LaunchScreen.storyboard */; };
+		269D249D28BA3C2D008674CF /* PillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D249C28BA3C2D008674CF /* PillDetailViewController.swift */; };
+		26D0055228719B8D00FF90E1 /* CaretakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0055128719B8D00FF90E1 /* CaretakerViewController.swift */; };
+		26D0055428719D4300FF90E1 /* CreatePillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0055328719D4300FF90E1 /* CreatePillViewController.swift */; };
+		26D0055728719D5D00FF90E1 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0055528719D5D00FF90E1 /* DayCell.swift */; };
+		26D0055828719D5D00FF90E1 /* PillShapeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0055628719D5D00FF90E1 /* PillShapeCell.swift */; };
+		26D0055C28719EA100FF90E1 /* DropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 26D0055B28719EA100FF90E1 /* DropDown */; };
+		26D0055E2871A45700FF90E1 /* HomeAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0055D2871A45700FF90E1 /* HomeAlertViewController.swift */; };
+		26D005612871B45E00FF90E1 /* FloatingPanelController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0055F2871B45E00FF90E1 /* FloatingPanelController+Extensions.swift */; };
+		26D005622871B45E00FF90E1 /* FloatingPanel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D005602871B45E00FF90E1 /* FloatingPanel+Extensions.swift */; };
+		26D0056428746E1C00FF90E1 /* HomeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0056328746E1C00FF90E1 /* HomeProfileViewController.swift */; };
+		26E43BAE286738E0007C10BC /* HomeSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43BAC286738E0007C10BC /* HomeSummaryCell.swift */; };
+		26E43BB128673D25007C10BC /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43BB028673D25007C10BC /* HomeCell.swift */; };
+		26E43BB328673DFD007C10BC /* PillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43BB228673DFD007C10BC /* PillCell.swift */; };
+		26EA55D0286C888F00D7393B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA55CF286C888F00D7393B /* MenuViewController.swift */; };
+		26EA55D2286C8C1D00D7393B /* SideMenuComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA55D1286C8C1D00D7393B /* SideMenuComposer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		261779D12745442600314E8E /* AutoLayoutDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutDSL.swift; sourceTree = "<group>"; };
+		261779D32745447B00314E8E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		261779D42745447B00314E8E /* FloatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		261779D52745447B00314E8E /* PillTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PillTextField.swift; sourceTree = "<group>"; };
+		261779D92745448700314E8E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		261779DD27455F8200314E8E /* PatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		261779DF27455FA900314E8E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		261779E22745633F00314E8E /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		261779E42745654D00314E8E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2638A5F628A7FE8300EF6183 /* HomeDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDayCell.swift; sourceTree = "<group>"; };
+		2638A5F828A9154700EF6183 /* HomePillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePillCell.swift; sourceTree = "<group>"; };
+		2644CFAD2889B997004330EB /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		2681CB1A284BA4F20052D7AB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2689DBC1272B2667005D7ABF /* Boxenv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxenv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2689DBC4272B2667005D7ABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2689DBC8272B2667005D7ABF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2689DBCD272B2669005D7ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2689DBD0272B2669005D7ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2689DBD2272B2669005D7ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269D249C28BA3C2D008674CF /* PillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillDetailViewController.swift; sourceTree = "<group>"; };
+		26D0055128719B8D00FF90E1 /* CaretakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaretakerViewController.swift; sourceTree = "<group>"; };
+		26D0055328719D4300FF90E1 /* CreatePillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePillViewController.swift; sourceTree = "<group>"; };
+		26D0055528719D5D00FF90E1 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		26D0055628719D5D00FF90E1 /* PillShapeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PillShapeCell.swift; sourceTree = "<group>"; };
+		26D0055D2871A45700FF90E1 /* HomeAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAlertViewController.swift; sourceTree = "<group>"; };
+		26D0055F2871B45E00FF90E1 /* FloatingPanelController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPanelController+Extensions.swift"; sourceTree = "<group>"; };
+		26D005602871B45E00FF90E1 /* FloatingPanel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPanel+Extensions.swift"; sourceTree = "<group>"; };
+		26D0056328746E1C00FF90E1 /* HomeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProfileViewController.swift; sourceTree = "<group>"; };
+		26E43BAC286738E0007C10BC /* HomeSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSummaryCell.swift; sourceTree = "<group>"; };
+		26E43BB028673D25007C10BC /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		26E43BB228673DFD007C10BC /* PillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillCell.swift; sourceTree = "<group>"; };
+		26EA55CF286C888F00D7393B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		26EA55D1286C8C1D00D7393B /* SideMenuComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuComposer.swift; sourceTree = "<group>"; };
+		46AA1C369400A2C2A5DC8D02 /* Pods_BoxenAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxenAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E54E56252A80E76E9C3EB5 /* Pods-BoxenAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxenAdmin.release.xcconfig"; path = "Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		A1C86F9ECBFA91F922EEE7F7 /* Pods-BoxenAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxenAdmin.debug.xcconfig"; path = "Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2689DBBE272B2667005D7ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2681CB19284BA4010052D7AB /* FloatingPanel in Frameworks */,
+				26D0055C28719EA100FF90E1 /* DropDown in Frameworks */,
+				261779D0274543F400314E8E /* MustacheRxSwift in Frameworks */,
+				1592C1D513D5CFD140146BB0 /* Pods_BoxenAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DD56CF89540B97EE1B5CD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46AA1C369400A2C2A5DC8D02 /* Pods_BoxenAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		261779E127455FB800314E8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26E43BAB2867388B007C10BC /* Home */,
+				261779D92745448700314E8E /* SignInViewController.swift */,
+				261779DF27455FA900314E8E /* ProfileViewController.swift */,
+				26D0055328719D4300FF90E1 /* CreatePillViewController.swift */,
+				261779DD27455F8200314E8E /* PatientListViewController.swift */,
+				2681CB1A284BA4F20052D7AB /* SettingsViewController.swift */,
+				26D0055128719B8D00FF90E1 /* CaretakerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		268632102B71E957D8194EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1C86F9ECBFA91F922EEE7F7 /* Pods-BoxenAdmin.debug.xcconfig */,
+				56E54E56252A80E76E9C3EB5 /* Pods-BoxenAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2689DBB8272B2666005D7ABF = {
+			isa = PBXGroup;
+			children = (
+				2689DBC3272B2667005D7ABF /* BoxenAdmin */,
+				2689DBC2272B2667005D7ABF /* Products */,
+				268632102B71E957D8194EBA /* Pods */,
+				25DD56CF89540B97EE1B5CD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2689DBC2272B2667005D7ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2689DBC1272B2667005D7ABF /* Boxenv2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2689DBC3272B2667005D7ABF /* BoxenAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				261779E127455FB800314E8E /* Controllers */,
+				2689DBC4272B2667005D7ABF /* AppDelegate.swift */,
+				261779D12745442600314E8E /* AutoLayoutDSL.swift */,
+				261779D32745447B00314E8E /* Extensions.swift */,
+				26D0055528719D5D00FF90E1 /* DayCell.swift */,
+				26D005602871B45E00FF90E1 /* FloatingPanel+Extensions.swift */,
+				26D0055F2871B45E00FF90E1 /* FloatingPanelController+Extensions.swift */,
+				26D0055628719D5D00FF90E1 /* PillShapeCell.swift */,
+				261779D42745447B00314E8E /* FloatingTextField.swift */,
+				261779D52745447B00314E8E /* PillTextField.swift */,
+				2689DBCD272B2669005D7ABF /* Assets.xcassets */,
+				2689DBCF272B2669005D7ABF /* LaunchScreen.storyboard */,
+				2689DBD2272B2669005D7ABF /* Info.plist */,
+				261779E22745633F00314E8E /* PatientCell.swift */,
+				261779E42745654D00314E8E /* Models.swift */,
+				26EA55CF286C888F00D7393B /* MenuViewController.swift */,
+				26EA55D1286C8C1D00D7393B /* SideMenuComposer.swift */,
+			);
+			path = BoxenAdmin;
+			sourceTree = "<group>";
+		};
+		26E43BAB2867388B007C10BC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2689DBC8272B2667005D7ABF /* HomeViewController.swift */,
+				26E43BAC286738E0007C10BC /* HomeSummaryCell.swift */,
+				26E43BB028673D25007C10BC /* HomeCell.swift */,
+				26E43BB228673DFD007C10BC /* PillCell.swift */,
+				26D0055D2871A45700FF90E1 /* HomeAlertViewController.swift */,
+				26D0056328746E1C00FF90E1 /* HomeProfileViewController.swift */,
+				2644CFAD2889B997004330EB /* MenuItemCell.swift */,
+				2638A5F628A7FE8300EF6183 /* HomeDayCell.swift */,
+				2638A5F828A9154700EF6183 /* HomePillCell.swift */,
+				269D249C28BA3C2D008674CF /* PillDetailViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2689DBC0272B2667005D7ABF /* Boxenv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2689DBD5272B2669005D7ABF /* Build configuration list for PBXNativeTarget "Boxenv2" */;
+			buildPhases = (
+				CCBB6B87217D6F3248C91DB3 /* [CP] Check Pods Manifest.lock */,
+				2689DBBD272B2667005D7ABF /* Sources */,
+				2689DBBE272B2667005D7ABF /* Frameworks */,
+				2689DBBF272B2667005D7ABF /* Resources */,
+				AD74D8E7447DE7AFBD692CDE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxenv2;
+			packageProductDependencies = (
+				261779CF274543F400314E8E /* MustacheRxSwift */,
+				2681CB18284BA4010052D7AB /* FloatingPanel */,
+				26D0055B28719EA100FF90E1 /* DropDown */,
+			);
+			productName = BoxenAdmin;
+			productReference = 2689DBC1272B2667005D7ABF /* Boxenv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2689DBB9272B2666005D7ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2689DBC0272B2667005D7ABF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 2689DBBC272B2666005D7ABF /* Build configuration list for PBXProject "Boxenv2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2689DBB8272B2666005D7ABF;
+			packageReferences = (
+				261779CE274543F400314E8E /* XCRemoteSwiftPackageReference "MustacheRxSwift" */,
+				2681CB17284BA4010052D7AB /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+				26D0055A28719EA100FF90E1 /* XCRemoteSwiftPackageReference "DropDown" */,
+			);
+			productRefGroup = 2689DBC2272B2667005D7ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2689DBC0272B2667005D7ABF /* Boxenv2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2689DBBF272B2667005D7ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2689DBD1272B2669005D7ABF /* LaunchScreen.storyboard in Resources */,
+				2689DBCE272B2669005D7ABF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD74D8E7447DE7AFBD692CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBB6B87217D6F3248C91DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoxenAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2689DBBD272B2667005D7ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0055828719D5D00FF90E1 /* PillShapeCell.swift in Sources */,
+				261779DA2745448700314E8E /* SignInViewController.swift in Sources */,
+				2689DBC9272B2667005D7ABF /* HomeViewController.swift in Sources */,
+				26D0055228719B8D00FF90E1 /* CaretakerViewController.swift in Sources */,
+				261779E027455FA900314E8E /* ProfileViewController.swift in Sources */,
+				261779E52745654D00314E8E /* Models.swift in Sources */,
+				26D005612871B45E00FF90E1 /* FloatingPanelController+Extensions.swift in Sources */,
+				2644CFAE2889B997004330EB /* MenuItemCell.swift in Sources */,
+				26E43BB128673D25007C10BC /* HomeCell.swift in Sources */,
+				26E43BAE286738E0007C10BC /* HomeSummaryCell.swift in Sources */,
+				2689DBC5272B2667005D7ABF /* AppDelegate.swift in Sources */,
+				26D0055428719D4300FF90E1 /* CreatePillViewController.swift in Sources */,
+				26D0055728719D5D00FF90E1 /* DayCell.swift in Sources */,
+				26D0055E2871A45700FF90E1 /* HomeAlertViewController.swift in Sources */,
+				261779D22745442600314E8E /* AutoLayoutDSL.swift in Sources */,
+				261779D72745447C00314E8E /* FloatingTextField.swift in Sources */,
+				26E43BB328673DFD007C10BC /* PillCell.swift in Sources */,
+				26D005622871B45E00FF90E1 /* FloatingPanel+Extensions.swift in Sources */,
+				26EA55D0286C888F00D7393B /* MenuViewController.swift in Sources */,
+				2638A5F728A7FE8300EF6183 /* HomeDayCell.swift in Sources */,
+				261779D82745447C00314E8E /* PillTextField.swift in Sources */,
+				269D249D28BA3C2D008674CF /* PillDetailViewController.swift in Sources */,
+				261779E32745633F00314E8E /* PatientCell.swift in Sources */,
+				2681CB1B284BA4F20052D7AB /* SettingsViewController.swift in Sources */,
+				2638A5F928A9154700EF6183 /* HomePillCell.swift in Sources */,
+				26EA55D2286C8C1D00D7393B /* SideMenuComposer.swift in Sources */,
+				261779D62745447C00314E8E /* Extensions.swift in Sources */,
+				261779DE27455F8200314E8E /* PatientListViewController.swift in Sources */,
+				26D0056428746E1C00FF90E1 /* HomeProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2689DBCF272B2669005D7ABF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2689DBD0272B2669005D7ABF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2689DBD3272B2669005D7ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2689DBD4272B2669005D7ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2689DBD6272B2669005D7ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C86F9ECBFA91F922EEE7F7 /* Pods-BoxenAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AFU5Y4A24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxenAdmin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boxen v2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.elhoej.BoxenAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2689DBD7272B2669005D7ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E54E56252A80E76E9C3EB5 /* Pods-BoxenAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AFU5Y4A24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoxenAdmin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boxen v2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.elhoej.BoxenAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2689DBBC272B2666005D7ABF /* Build configuration list for PBXProject "Boxenv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689DBD3272B2669005D7ABF /* Debug */,
+				2689DBD4272B2669005D7ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2689DBD5272B2669005D7ABF /* Build configuration list for PBXNativeTarget "Boxenv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689DBD6272B2669005D7ABF /* Debug */,
+				2689DBD7272B2669005D7ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		261779CE274543F400314E8E /* XCRemoteSwiftPackageReference "MustacheRxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mustachedk/MustacheRxSwift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2681CB17284BA4010052D7AB /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scenee/FloatingPanel";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+		26D0055A28719EA100FF90E1 /* XCRemoteSwiftPackageReference "DropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AssistoLab/DropDown";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		261779CF274543F400314E8E /* MustacheRxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 261779CE274543F400314E8E /* XCRemoteSwiftPackageReference "MustacheRxSwift" */;
+			productName = MustacheRxSwift;
+		};
+		2681CB18284BA4010052D7AB /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2681CB17284BA4010052D7AB /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+		26D0055B28719EA100FF90E1 /* DropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26D0055A28719EA100FF90E1 /* XCRemoteSwiftPackageReference "DropDown" */;
+			productName = DropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2689DBB9272B2666005D7ABF /* Project object */;
+}
