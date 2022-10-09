@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_BoxenAdminVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BoxenAdminVersionString[];
+FOUNDATION_EXPORT double Pods_Boxenv2VersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Boxenv2VersionString[];
 

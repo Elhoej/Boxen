@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1592C1D513D5CFD140146BB0 /* Pods_BoxenAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AA1C369400A2C2A5DC8D02 /* Pods_BoxenAdmin.framework */; };
 		261779D0274543F400314E8E /* MustacheRxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 261779CF274543F400314E8E /* MustacheRxSwift */; };
 		261779D22745442600314E8E /* AutoLayoutDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D12745442600314E8E /* AutoLayoutDSL.swift */; };
 		261779D62745447C00314E8E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779D32745447B00314E8E /* Extensions.swift */; };
@@ -42,6 +41,7 @@
 		26E43BB328673DFD007C10BC /* PillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E43BB228673DFD007C10BC /* PillCell.swift */; };
 		26EA55D0286C888F00D7393B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA55CF286C888F00D7393B /* MenuViewController.swift */; };
 		26EA55D2286C8C1D00D7393B /* SideMenuComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA55D1286C8C1D00D7393B /* SideMenuComposer.swift */; };
+		D24B866DED2B19A8D89343C8 /* Pods_Boxenv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42DB6E33212563698001D2A /* Pods_Boxenv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,9 +78,9 @@
 		26E43BB228673DFD007C10BC /* PillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillCell.swift; sourceTree = "<group>"; };
 		26EA55CF286C888F00D7393B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		26EA55D1286C8C1D00D7393B /* SideMenuComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuComposer.swift; sourceTree = "<group>"; };
-		46AA1C369400A2C2A5DC8D02 /* Pods_BoxenAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxenAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E54E56252A80E76E9C3EB5 /* Pods-BoxenAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxenAdmin.release.xcconfig"; path = "Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin.release.xcconfig"; sourceTree = "<group>"; };
-		A1C86F9ECBFA91F922EEE7F7 /* Pods-BoxenAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxenAdmin.debug.xcconfig"; path = "Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE2117C73E7625086F0CE8B /* Pods-Boxenv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boxenv2.release.xcconfig"; path = "Target Support Files/Pods-Boxenv2/Pods-Boxenv2.release.xcconfig"; sourceTree = "<group>"; };
+		B14EC7DFBEA0AD9009A44DC8 /* Pods-Boxenv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boxenv2.debug.xcconfig"; path = "Target Support Files/Pods-Boxenv2/Pods-Boxenv2.debug.xcconfig"; sourceTree = "<group>"; };
+		B42DB6E33212563698001D2A /* Pods_Boxenv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boxenv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,21 +91,13 @@
 				2681CB19284BA4010052D7AB /* FloatingPanel in Frameworks */,
 				26D0055C28719EA100FF90E1 /* DropDown in Frameworks */,
 				261779D0274543F400314E8E /* MustacheRxSwift in Frameworks */,
-				1592C1D513D5CFD140146BB0 /* Pods_BoxenAdmin.framework in Frameworks */,
+				D24B866DED2B19A8D89343C8 /* Pods_Boxenv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25DD56CF89540B97EE1B5CD5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46AA1C369400A2C2A5DC8D02 /* Pods_BoxenAdmin.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		261779E127455FB800314E8E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +115,8 @@
 		268632102B71E957D8194EBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1C86F9ECBFA91F922EEE7F7 /* Pods-BoxenAdmin.debug.xcconfig */,
-				56E54E56252A80E76E9C3EB5 /* Pods-BoxenAdmin.release.xcconfig */,
+				B14EC7DFBEA0AD9009A44DC8 /* Pods-Boxenv2.debug.xcconfig */,
+				8DE2117C73E7625086F0CE8B /* Pods-Boxenv2.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,7 +127,7 @@
 				2689DBC3272B2667005D7ABF /* BoxenAdmin */,
 				2689DBC2272B2667005D7ABF /* Products */,
 				268632102B71E957D8194EBA /* Pods */,
-				25DD56CF89540B97EE1B5CD5 /* Frameworks */,
+				F1CE8D69C69C53089501A51F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +180,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		F1CE8D69C69C53089501A51F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42DB6E33212563698001D2A /* Pods_Boxenv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,11 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2689DBD5272B2669005D7ABF /* Build configuration list for PBXNativeTarget "Boxenv2" */;
 			buildPhases = (
-				CCBB6B87217D6F3248C91DB3 /* [CP] Check Pods Manifest.lock */,
+				6BDF6AF2E29DC1CCD5D12B99 /* [CP] Check Pods Manifest.lock */,
 				2689DBBD272B2667005D7ABF /* Sources */,
 				2689DBBE272B2667005D7ABF /* Frameworks */,
 				2689DBBF272B2667005D7ABF /* Resources */,
-				AD74D8E7447DE7AFBD692CDE /* [CP] Embed Pods Frameworks */,
+				21D24A254ADA893698F59EC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,24 +266,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AD74D8E7447DE7AFBD692CDE /* [CP] Embed Pods Frameworks */ = {
+		21D24A254ADA893698F59EC4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Boxenv2/Pods-Boxenv2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Boxenv2/Pods-Boxenv2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoxenAdmin/Pods-BoxenAdmin-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boxenv2/Pods-Boxenv2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CCBB6B87217D6F3248C91DB3 /* [CP] Check Pods Manifest.lock */ = {
+		6BDF6AF2E29DC1CCD5D12B99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,7 +298,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BoxenAdmin-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Boxenv2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -476,7 +476,7 @@
 		};
 		2689DBD6272B2669005D7ABF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1C86F9ECBFA91F922EEE7F7 /* Pods-BoxenAdmin.debug.xcconfig */;
+			baseConfigurationReference = B14EC7DFBEA0AD9009A44DC8 /* Pods-Boxenv2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,7 +505,7 @@
 		};
 		2689DBD7272B2669005D7ABF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56E54E56252A80E76E9C3EB5 /* Pods-BoxenAdmin.release.xcconfig */;
+			baseConfigurationReference = 8DE2117C73E7625086F0CE8B /* Pods-Boxenv2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

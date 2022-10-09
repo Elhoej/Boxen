@@ -98,53 +98,53 @@ class PillDetailViewController: UIViewController {
         return iv
     }()
 
-    let chart: PieChartView = {
-        let chart = PieChartView()
-        return chart
-    }()
+//    let chart: PieChartView = {
+//        let chart = PieChartView()
+//        return chart
+//    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureAutoLayout()
         self.configureView()
-        self.setDataCount(2, range: 2)
+//        self.setDataCount(2, range: 2)
     }
 
-    func setDataCount(_ count: Int, range: UInt32) {
-            let entries = (0..<count).map { (i) -> PieChartDataEntry in
-                // IMPORTANT: In a PieChart, no values (Entry) should have the same xIndex (even if from different DataSets), since no values can be drawn above each other.
-                return PieChartDataEntry(value: Double(arc4random_uniform(range) + range / 5),
-                                         label: parties[i % parties.count],
-                                         icon: #imageLiteral(resourceName: "icon"))
-            }
-
-            let set = PieChartDataSet(entries: entries, label: "Election Results")
-            set.drawIconsEnabled = false
-            set.sliceSpace = 2
-
-
-            set.colors = ChartColorTemplates.vordiplom()
-                + ChartColorTemplates.joyful()
-                + ChartColorTemplates.colorful()
-                + ChartColorTemplates.liberty()
-                + ChartColorTemplates.pastel()
-                + [UIColor(red: 51/255, green: 181/255, blue: 229/255, alpha: 1)]
-
-            let data = PieChartData(dataSet: set)
-
-            let pFormatter = NumberFormatter()
-            pFormatter.numberStyle = .percent
-            pFormatter.maximumFractionDigits = 1
-            pFormatter.multiplier = 1
-            pFormatter.percentSymbol = " %"
-            data.setValueFormatter(DefaultValueFormatter(formatter: pFormatter))
-
-            data.setValueFont(.systemFont(ofSize: 11, weight: .light))
-            data.setValueTextColor(.black)
-
-            chartView.data = data
-            chartView.highlightValues(nil)
-        }
+//    func setDataCount(_ count: Int, range: UInt32) {
+//            let entries = (0..<count).map { (i) -> PieChartDataEntry in
+//                // IMPORTANT: In a PieChart, no values (Entry) should have the same xIndex (even if from different DataSets), since no values can be drawn above each other.
+//                return PieChartDataEntry(value: Double(arc4random_uniform(range) + range / 5),
+//                                         label: parties[i % parties.count],
+//                                         icon: #imageLiteral(resourceName: "icon"))
+//            }
+//
+//            let set = PieChartDataSet(entries: entries, label: "Election Results")
+//            set.drawIconsEnabled = false
+//            set.sliceSpace = 2
+//
+//
+//            set.colors = ChartColorTemplates.vordiplom()
+//                + ChartColorTemplates.joyful()
+//                + ChartColorTemplates.colorful()
+//                + ChartColorTemplates.liberty()
+//                + ChartColorTemplates.pastel()
+//                + [UIColor(red: 51/255, green: 181/255, blue: 229/255, alpha: 1)]
+//
+//            let data = PieChartData(dataSet: set)
+//
+//            let pFormatter = NumberFormatter()
+//            pFormatter.numberStyle = .percent
+//            pFormatter.maximumFractionDigits = 1
+//            pFormatter.multiplier = 1
+//            pFormatter.percentSymbol = " %"
+//            data.setValueFormatter(DefaultValueFormatter(formatter: pFormatter))
+//
+//            data.setValueFont(.systemFont(ofSize: 11, weight: .light))
+//            data.setValueTextColor(.black)
+//
+//            chartView.data = data
+//            chartView.highlightValues(nil)
+//        }
 
     fileprivate func configureView() {
         self.view.backgroundColor = .white
@@ -216,12 +216,12 @@ class PillDetailViewController: UIViewController {
             .width(constant: 22)
         ])
 
-        self.view.addSubview(self.chart, anchors: [
-            .top(to: self.stockView.bottomAnchor, constant: 20),
-            .centerX(to: self.view.center),
-            .height(constant: 100),
-            .width(constant: 100)
-        ])
+//        self.view.addSubview(self.chart, anchors: [
+//            .top(to: self.stockView.bottomAnchor, constant: 20),
+//            .centerX(to: self.view.center),
+//            .height(constant: 100),
+//            .width(constant: 100)
+//        ])
     }
 
 }
