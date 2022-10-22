@@ -17,6 +17,7 @@
 		261779E027455FA900314E8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779DF27455FA900314E8E /* ProfileViewController.swift */; };
 		261779E32745633F00314E8E /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779E22745633F00314E8E /* PatientCell.swift */; };
 		261779E52745654D00314E8E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261779E42745654D00314E8E /* Models.swift */; };
+		261CA1D828FC1051008CA037 /* HomeViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261CA1D728FC1051008CA037 /* HomeViewControllerNew.swift */; };
 		2638A5F728A7FE8300EF6183 /* HomeDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638A5F628A7FE8300EF6183 /* HomeDayCell.swift */; };
 		2638A5F928A9154700EF6183 /* HomePillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2638A5F828A9154700EF6183 /* HomePillCell.swift */; };
 		2644CFAE2889B997004330EB /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644CFAD2889B997004330EB /* MenuItemCell.swift */; };
@@ -54,6 +55,7 @@
 		261779DF27455FA900314E8E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		261779E22745633F00314E8E /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
 		261779E42745654D00314E8E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		261CA1D728FC1051008CA037 /* HomeViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerNew.swift; sourceTree = "<group>"; };
 		2638A5F628A7FE8300EF6183 /* HomeDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDayCell.swift; sourceTree = "<group>"; };
 		2638A5F828A9154700EF6183 /* HomePillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePillCell.swift; sourceTree = "<group>"; };
 		2644CFAD2889B997004330EB /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				2689DBC8272B2667005D7ABF /* HomeViewController.swift */,
+				261CA1D728FC1051008CA037 /* HomeViewControllerNew.swift */,
 				26E43BAC286738E0007C10BC /* HomeSummaryCell.swift */,
 				26E43BB028673D25007C10BC /* HomeCell.swift */,
 				26E43BB228673DFD007C10BC /* PillCell.swift */,
@@ -334,6 +337,7 @@
 				2638A5F728A7FE8300EF6183 /* HomeDayCell.swift in Sources */,
 				261779D82745447C00314E8E /* PillTextField.swift in Sources */,
 				269D249D28BA3C2D008674CF /* PillDetailViewController.swift in Sources */,
+				261CA1D828FC1051008CA037 /* HomeViewControllerNew.swift in Sources */,
 				261779E32745633F00314E8E /* PatientCell.swift in Sources */,
 				2681CB1B284BA4F20052D7AB /* SettingsViewController.swift in Sources */,
 				2638A5F928A9154700EF6183 /* HomePillCell.swift in Sources */,

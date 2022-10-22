@@ -9,7 +9,7 @@ import UIKit
 
 final class ContainerViewComposer {
     static func makeContainer() -> ContainerViewController {
-        let homeViewController = HomeViewController()
+        let homeViewController = HomeViewControllerNew()
         let profileViewController = ProfileViewController()
         let patientListViewController = PatientListViewController()
         let caretakerViewController = CaretakerViewController()

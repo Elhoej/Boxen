@@ -17,14 +17,6 @@ class HomeViewController: ContentViewController {
         return view
     }()
 
-    let backgroundImageView: UIImageView = {
-        let iv = UIImageView()
-        iv.image = UIImage(named: "mesh_bg")
-        iv.contentMode = .scaleAspectFill
-        iv.clipsToBounds = true
-        return iv
-    }()
-
     let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Here is your pill\nschedule for the day:"
@@ -228,8 +220,6 @@ class HomeViewController: ContentViewController {
             .trailing(to: self.view.trailingAnchor),
             .height(constant: 328)
         ])
-
-        self.topView.addSubview(self.backgroundImageView, anchors: [.fill()])
 
         self.view.addSubview(self.menuButton, anchors: [
             .top(to: self.view.topAnchor, constant: 50),
